@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background-color: rgb(255, 219, 253);
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: rgb(241, 80, 225);
+      padding: 0 10px;
+    }
+
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+
+    .navbar a:hover,
+    .dropdown:hover .dropbtn {
+      background-color: rgba(91, 7, 84, 0.322);
+      border-radius: 30px;
+      color: rgb(9, 9, 9);
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: rgb(241, 80, 225);
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+      border-radius: 0;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .logo {
+      width: 5%;
+      padding: 5px;
+    }
+
+    .logo img {
+      width: 100%;
+      border-radius: 35px;
+    }
+
+    .icon {
+      padding: 4px 0 0 5px;
+    }
+
+    h1, h2{
+      text-align: center;
+      color: rgb(6, 8, 27);
+      margin: 40px 0;
+    }
+
+    p{
+      text-align: center;
+      width: 800px;
+      margin: 0 auto;
+      line-height: 25px;
+      font-family: sans-serif;
+      font-size: 17px;
+    }
+  </style>
+
+
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="logo">
+      <img src="assets/image/logo.svg" alt="">
+    </div>
+    <div class="tabs">
+      <a href="index.html">Home
+        <img src="assets/fonts/house-solid.svg" alt="" class="icon">
+      </a>
+      <div class="dropdown">
+        <button class="dropbtn">View
+          <img src="assets/fonts/eye-solid.svg" alt="" class="icon">
+        </button>
+        <div class="dropdown-content">
+          <a href="http://localhost/Ravina_backend/viewstudents.php">Student</a>
+          <a href="http://localhost/Ravina_backend/parents.php">Parent</a>
+          <a href="http://localhost/Ravina_backend/teachers.php">Teacher</a>
+          <a href="http://localhost/Ravina_backend/classes.php">Class</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Add
+          <img src="assets/fonts/plus-solid.svg" alt="" class="icon">
+        </button>
+        <div class="dropdown-content">
+          <a href="http://localhost/Ravina_backend/AddStudent.html">Student</a>
+          <a href="http://localhost/Ravina_backend/AddParent.html">Parent</a>
+          <a href="http://localhost/Ravina_backend/AddTeacher.html">Teacher</a>
+          <a href="http://localhost/Ravina_backend/AddClass.html">Class</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Delete
+          <img src="assets/fonts/trash-solid.svg" alt="" class="icon">
+        </button>
+        <div class="dropdown-content">
+          <a href="delstudent.php">Student</a>
+          <a href="delparent.php">Parent</a>
+          <a href="delteacher.php">Teacher</a>
+          <a href="delclass.php">Class</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Update
+          <img src="assets/fonts/pen-to-square-solid.svg" alt="" class="icon">
+        </button>
+        <div class="dropdown-content">
+          <a href="updatestudent.php">Student</a>
+          <a href="updateparent.php">Parent</a>
+          <a href="updateteacher.php">Teacher</a>
+          <a href="updateclass.php">Class</a>
+        </div>
+      </div>
+      <a href="contactus.html">Contact Us
+        <img src="assets/fonts/address-book-regular.svg" alt="" class="icon">
+      </a>
+    </div>
+  </div>
+
+
+  <h1>Welcome to St Alphonsus R.C. Primary School. </h1>
+  <p>Welcome to St. Alphonsus R.C. Primary School, where learning is a joy and our committed team works to provide a
+    loving, Christian environment where each person is valued equally. We value the privilege of working together with
+    parents on all aspects of their child's education and development, establishing a cordial alliance that benefits our
+    kids' general development.
+  <h2>History</h2>
+  <p>We at St. Alphonsus R.C. Primary School have high expectations for every student, and we provide a varied and
+    stimulating curriculum that prioritises fun and inquiry. We consider the establishment of a safe and secure
+    environment to be the reason why our school is a happy place. Here, kids grow confidently because we offer the
+    perfect, caring environment for their development and educational journey.
+
+
+
+
+
+
+  </p>
+</body>
+
+</html>
